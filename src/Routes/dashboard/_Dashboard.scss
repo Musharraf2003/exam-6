@@ -1,0 +1,218 @@
+
+
+.dashboard{
+    background-color: black;
+    color: white;
+    height: 1000px;
+    padding: 52px 36px;
+}
+
+.dashboard-new-wrapper{
+    display: flex;
+    gap: 47px;
+    max-width: 1887px;
+    width: 100%;
+    height: 920px;
+}
+
+.sidebar{
+    max-width: 270px;
+    width: 100%;
+    background-color: rgba(245, 193, 71, 1);
+    border-radius: 31px;
+    background: #F5C147;
+    padding: 21px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+    p{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.dashboard-user-info{
+    display: flex;
+    gap: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 17.658px 9.842px 13px 15px;
+    border-radius: 22px;
+    align-items: center;
+    p{
+        font-size: 16px;
+    }
+    small{
+        font-size: 12px;
+        color: #787878;
+    }
+}
+
+.create-btn{
+    color: #FFF;
+    font-size: 20px;
+    padding: 24px 91px 24px 2px;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    .btn-create{
+        text-decoration: none;
+        color: #FFF;
+        font-size: 20px;
+    }
+}
+
+.manage-btn{
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    padding: 24px 69px 22px 2px;
+    border: none;
+    border-radius: 20px;
+    background: #FFF;
+    .btn-manage{
+        color: rgba(0, 0, 0, 1);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+.create-btn.white{
+    background-color: white;
+}
+
+.manage-btn.black{
+    background-color: black;
+    color: #fff;
+}
+
+.signout-link{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    bottom: 36px;
+    right: 95px;
+}
+
+.new-post{
+    max-width: 1012px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 34px;
+    > p{
+        margin-bottom: 16px;
+        font-size: 30px;
+    }
+}
+
+.new-post-wrapper{
+    height: 822px;
+    max-width: 1012px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #787878;
+    gap: 43px;
+    padding-top: 37px;
+}
+
+.create-post-form{
+    display: flex;
+    flex-direction: column;
+    label{
+        margin-bottom: 3px;
+        font-size: 20px;
+    }
+    input, textarea{
+        border-radius: 15px;
+        background: #FFF;
+        margin-bottom: 25px;
+        padding: 20px 50px 20px 20px;
+    }
+}
+
+.url-and-select{
+    display: flex;
+    gap: 28px;
+    input{
+        max-width: 684px;
+        width: 100%;
+        height: 44px;
+    }
+    select{
+        max-width: 300px;
+        width: 100%;
+        height: 46px;
+        border-radius: 15px;
+    }
+}
+
+.post-title-input{
+    height: 44px;
+}
+
+.create-post-btn{
+    color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    background: #F5C147;
+    padding: 16px 72px;
+    border: none;
+    width: 248px;
+    font-size: 20px;
+    margin: 43px auto;
+}
+
+
+/// MANAGEPOSTS STYLES
+
+.manage-posts{
+    max-width: 1012px;
+    width: 100%;
+    height: 920px;
+    padding-top: 34px;
+    > p{
+        margin-bottom: 16px;
+        font-size: 30px;
+    }
+}
+
+.manage-posts-wrapper{
+    height: 822px;
+    border-top: 1px solid #787878;
+    padding-top: 37px;
+    display: flex;
+    gap: 92px;
+    flex-wrap: wrap;
+}
+
+.my-post-card{
+    max-width: 266px;
+    width: 100%;
+    height: 336px;
+    border: 3px solid #F0DE36;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    :nth-child(2){
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    img{
+        height: 172px;
+        width: 100%;
+    }
+    button{
+        margin-top: 50px;
+        background: #CA3838;
+        color: white;
+        border: none;
+        padding: 7px 0;
+    }
+}
+
+
+
